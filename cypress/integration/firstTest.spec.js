@@ -7,40 +7,40 @@ context('Todos', function(){
     })
 })
 
-// it('By ID', ()=> {
-//     cy.visit('https://facebook.com/')
-//     cy.get('#email')
-// });
+it('By ID', ()=> {
+    cy.visit('https://facebook.com/')
+    cy.get('#email')
+});
 
-// it('By Class', ()=> {
-//     cy.visit('https://www.selenium.dev/')
-//     cy.get('.navbar-logo')
-// });
+it('By Class', ()=> {
+    cy.visit('https://www.selenium.dev/')
+    cy.get('.navbar-logo')
+});
 
-// it('By Tag', ()=> {
-//     cy.visit('https://www.selenium.dev/')
-//     cy.get('nav')
-// });
+it('By Tag', ()=> {
+    cy.visit('https://www.selenium.dev/')
+    cy.get('nav')
+});
 
-// it('By Tag Value', ()=> {
-//     cy.visit('https://facebook.com/')
-//     cy.get('[name="pass"]')
-// });
+it('By Tag Value', ()=> {
+    cy.visit('https://facebook.com/')
+    cy.get('[name="pass"]')
+});
 
-// it('By Different Tags', ()=> {
-//     cy.visit('http://idealofsweden.com/')
-//     cy.get('[data-action="open-favourites-overlay"][data-vwo="header-favouritesicon-mobile"]')
-// });
+it('By Different Tags', ()=> {
+    cy.visit('http://idealofsweden.com/')
+    cy.get('[data-action="open-favourites-overlay"][data-vwo="header-favouritesicon-mobile"]')
+});
 
-// it('By Different Types', ()=> {
-//     cy.visit('https://docs.cypress.io/guides/overview/why-cypress#Our-mission')
-//     cy.get('button[type="button"][aria-label="Search"]')
-// });
+it('By Different Types', ()=> {
+    cy.visit('https://docs.cypress.io/guides/overview/why-cypress#Our-mission')
+    cy.get('button[type="button"][aria-label="Search"]')
+});
 
-// it.only('By Contains Name', ()=> {
-//     cy.visit('https://next.privat24.ua/')
-//     cy.get('*[class^="card"]')
-// });
+it.only('By Contains Name', ()=> {
+    cy.visit('https://next.privat24.ua/')
+    cy.get('*[class^="card"]')
+});
 
 
 // get and find
